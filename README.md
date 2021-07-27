@@ -7,7 +7,7 @@ Concrete-2-Cabinetry is the official repo for the construction company "Concrete
 
 **Tech used:** HTML, CSS, SCSS, JavaScript
 
-This site is built off of the Telephasic template created by HTML5 UP - Design Templates. I did some serious changes though and modified a solid portion template in order to meet the client's demands. One of the biggest areas of change to site was to the landing page. I made some major changes to the navbar and added a custom graphic of the Concrete2Cabinetry logo. Some other changes to the template included adding a carousel image gallery, vertical quote/testimonial slideshow, and rearranging the "Contact Us" form.
+This site is built off of the Telephasic template created by HTML5 UP - Design Templates. I did some serious changes though and modified a solid portion template in order to meet the client's demands. One of the biggest areas of change to site was to the landing page. I made some major changes to the navbar and added a custom graphic of the Concrete2Cabinetry logo. Some other changes to the template included adding a carousel image gallery, vertical quote/testimonial slideshow, and a new "Contact Us" form.
 
 <!--Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
 
