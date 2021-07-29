@@ -1,7 +1,7 @@
 # Concrete2Cabinetry
 Concrete-2-Cabinetry is the official repo for the construction company "Concrete 2 Cabinetry" based out of Albany, NY.  I started the project in order to help boost the company's business and online presence in the region.
 
-**Live link to the project:** www.concrete2cabinetry.com
+**Demo link to the project:** colemodelo.github.io/concrete2cabinetry
 
 ## How It's Made:
 
