@@ -3321,7 +3321,6 @@ input, select, textarea {
  .nextBtn {
 	right: 0;
 	border-radius: 3px 0 0 3px;
-
  }
  .prevBtn{
 	 left: 0;
@@ -3334,7 +3333,6 @@ input, select, textarea {
   
  .Caption {
 	color: whitesmoke;
-	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 	font-size: 20px;
 	padding: 8px 12px;
 	position: absolute;
