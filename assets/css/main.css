@@ -3035,6 +3035,7 @@ input, select, textarea {
 
     .aboutImage{
         height: 30em;
+		width: auto;
     }
 
 	.content-slider {
