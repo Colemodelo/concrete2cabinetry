@@ -90,7 +90,7 @@ input, select, textarea {
 		background: #f5f7fa;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 300;
-		color: #52575c;
+		color: #0A0A0A;
 		line-height: 1.75em;
 		font-size: 14pt;
 	}
@@ -116,12 +116,19 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
-		color: #52575c;
+		color: #0A0A0A;
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 		color: inherit;
 		text-decoration: none;
+	}
+	h1{
+		font-size: 3.3em;
+		line-height: 1.25em;
+		letter-spacing: 4px;
+		text-transform: uppercase;
+		font-weight: 500;
 	}
 
 	h2 {
@@ -132,6 +139,9 @@ input, select, textarea {
 	h3 {
 		font-size: 1.5em;
 		line-height: 1.5em;
+	}
+	h3 a{
+		font-size: 0.7em;
 	}
 
 	a {
@@ -2145,7 +2155,7 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 			height: 4em;
-			line-height: 4em;			
+			line-height: 3.9em;			
 			color: #343434;
 			display: inline-block;
 			font-weight: 400;
@@ -2158,7 +2168,7 @@ input, select, textarea {
 		text-align: center;
 		position: absolute;
         background: whitesmoke;
-		opacity: 0.9;
+		opacity: 0.92;
 		top: 0;
 		left: 0;
 		width: 100%;
@@ -2686,8 +2696,7 @@ input, select, textarea {
 			}
 
 				#logo a {
-					border: solid 1px rgba(255, 255, 255, 0.75);
-					border-radius: 0.35em;
+					display: none;
 					height: 3em;
 					line-height: 3em;
 				}
@@ -3305,6 +3314,22 @@ input, select, textarea {
 		width: 100%;
 		height: auto;
 	}
+	#logo{
+		display: none;
+	}
+	#header-wrapper{
+		background: url(images/c2c-main-kitchen.jpg)
+	}
+	#hero{
+		width: 80%;
+		margin-top: 3em;
+	}
+	#hero .button{
+		margin-bottom: 1em;
+	}
+	h1{
+		font-size: 2.2em;
+	}
 	
  }
 
@@ -3332,7 +3357,7 @@ input, select, textarea {
  }
  .prevBtn,
  .nextBtn {
-	 cursor: pointer;
+	cursor: pointer;
 	position: absolute;
 	top: 50%;
 	width: auto;
