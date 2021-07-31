@@ -2246,7 +2246,7 @@ input, select, textarea {
     }
 	#hero {
 		position: relative;
-		color: #343434;
+		color: #0A0A0A;
 		text-align: center;
 		z-index: 1;
 		background: whitesmoke;
@@ -3311,7 +3311,7 @@ input, select, textarea {
 
  @media only screen and (max-width: 800px){
 	.aboutImage{
-		width: 100%;
+		width: 80%;
 		height: auto;
 	}
 	#logo{
@@ -3325,10 +3325,14 @@ input, select, textarea {
 		margin-top: 3em;
 	}
 	#hero .button{
-		margin-bottom: 1em;
+		margin-bottom: 1.5em;
 	}
 	h1{
 		font-size: 2.2em;
+	}
+	#nav{
+		position: fixed;
+		transition: top 0.3s;
 	}
 	
  }
