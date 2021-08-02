@@ -3413,7 +3413,17 @@ input, select, textarea {
 		  font-size: 1.1em;
 	  }
   }
-
+  @media only screen and (max-width: 340px){
+	  h1{
+		  font-size: 1em;
+	  }
+  }
+  @media only screen and (max-width: 325px){
+	  h1{
+		  font-size: 0.9em;
+	  }
+  }
+  
  .slideContainer {
 	max-width: 600px;
 	position: relative;
