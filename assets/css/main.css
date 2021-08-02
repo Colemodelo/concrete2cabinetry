@@ -259,7 +259,7 @@ input, select, textarea {
 		@media screen and (max-width: 1080px) {
 
 			.container {
-				width: 100%;
+				width: 80%;
 			}
 
 		}
@@ -2740,7 +2740,7 @@ input, select, textarea {
 					}
 
 				#hero p {
-					font-size: 1em;
+					font-size: 1.2em;
 				}
 
 		/* Nav */
@@ -3308,6 +3308,35 @@ input, select, textarea {
 	width: 100%;
 	height: 500px;
  }
+ @media screen and (max-width: 1080px) {
+	#logo{
+		 display: none;
+	 }
+	 h1{
+		font-size: 2em;
+	 }
+	 #hero{
+		 width: 80%;
+		 margin-top: 1em;
+	 }
+	 .button{
+		 margin-bottom: 1em;
+	 }
+	 #nav{
+		 position: fixed;
+		 transition: top 0.6s;
+	 }
+ }
+ @media screen and (max-width: 875px) {
+	 #hero{
+		height: 350px;
+		margin-top: 0;
+	}
+	.container{
+		margin-top: 0;
+	}
+	 
+ }
 
  @media only screen and (max-width: 800px){
 	.aboutImage{
@@ -3326,6 +3355,7 @@ input, select, textarea {
 	}
 	#hero .button{
 		margin-bottom: 1.5em;
+		border: 1px solid;
 	}
 	h1{
 		font-size: 2.2em;
@@ -3336,6 +3366,20 @@ input, select, textarea {
 	}
 	
  }
+ @media only screen and (max-width: 625px) {
+	 h1{
+		 font-size: 1.5em;
+	 }
+ }
+ @media only screen and (max-width: 500px){
+	h1{
+		font-size: 1.3em;
+	}
+	.button{
+		width: 75%;
+		margin: auto;
+	}
+ }
 
  @media only screen and (max-width: 475px) {
 	img {
@@ -3345,6 +3389,9 @@ input, select, textarea {
 	.aboutImage{
 		width: 100%;
 	}
+	h1{
+		font-size: 1.3em;
+	}
 	h2{
 		text-align: center;
 	}
@@ -3352,6 +3399,19 @@ input, select, textarea {
 		width: 100%;
 		height: auto;
 	}
+	#hero .button{
+		border: 1px solid #0A0A0A;
+	}
+  }
+  @media only screen and (max-width: 425px){
+	  h1{
+		  font-size: 1.2em;
+	  }
+  }
+  @media only screen and (max-width: 375px){
+	  h1{
+		  font-size: 1.1em;
+	  }
   }
 
  .slideContainer {
