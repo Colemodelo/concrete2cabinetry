@@ -3424,6 +3424,11 @@ input, select, textarea {
 		  font-size: 0.9em;
 	  }
   }
+  @media only screen and (max-width: 300px){
+	  h1{
+		  font-size: 0.7em;
+	  }
+  }
   
  .slideContainer {
 	max-width: 600px;
