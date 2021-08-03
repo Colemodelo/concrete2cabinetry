@@ -3367,7 +3367,7 @@ input, select, textarea {
 	}
 	
  }
- @media only screen and (max-width: 625px) {
+ @media only screen and (max-width: 625px) and (min-width: 500px) {
 	 h1{
 		 font-size: 1.5em;
 	 }
