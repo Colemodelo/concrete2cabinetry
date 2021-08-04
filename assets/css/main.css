@@ -3308,18 +3308,18 @@ input, select, textarea {
 		width: 60%;
 	}	
  }
- @media screen and (min-width: 1250px){
-	 .aboutImage{
-		 width: 60%;
-		 height: auto;
-	 }
- }
  @media screen and (min-width: 1080px){
 	.aboutImage{
 		width: 80%;
 		height: auto;
 	}
  } 
+ @media screen and (min-width: 1250px){
+	.aboutImage{
+		width: 70%;
+		height: auto;
+	}
+}
  @media screen and (max-width: 1080px) {
 	#logo{
 		 display: none;
