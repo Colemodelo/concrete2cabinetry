@@ -3309,6 +3309,12 @@ input, select, textarea {
 	}	
  }
  @media screen and (min-width: 1080px){
+	 .aboutImage{
+		 width: 60%;
+		 height: auto;
+	 }
+ }
+ @media screen and (min-width: 1080px){
 	.aboutImage{
 		width: 80%;
 		height: auto;
