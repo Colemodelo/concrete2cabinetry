@@ -3420,6 +3420,11 @@ input, select, textarea {
 	#hero .button{
 		border: 1px solid #0A0A0A;
 	}
+	#header-wrapper{
+		background-image: url(images/stained-woodwork-mobile.jpeg);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
   }
   @media only screen and (max-width: 425px){
 	  h1{
@@ -3506,5 +3511,11 @@ input, select, textarea {
 	.nextBtn,
 	.Caption {
 	   font-size: 16px;
+	}
+	.prevBtn{
+		left: 0;
+	}
+	.nextBtn{
+		right: 0;
 	}
  }
