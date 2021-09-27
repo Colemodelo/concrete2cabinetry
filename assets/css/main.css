@@ -3417,6 +3417,13 @@ input, select, textarea {
 		width: 100%;
 		height: auto;
 	}
+	.slider .quote{
+		font-size: 30px;
+	}
+	.slider .source{
+		margin-top: 5px;
+		font-size: 20px;
+	}
 	#hero .button{
 		border: 1px solid #0A0A0A;
 	}
