@@ -73,11 +73,11 @@
 						<div class="mask">
 						  <ul>
 							<li class="anim1">
-							  <div class="quote">Hello, this is a quote from a person.</div>
-							  <div class="source">- Person</div>
+							  <div class="quote">Nate was a pleasure to work with! He was professional with a good sense of humor. 11/10 would recommend calling Concrete2Cabinetry for your next home improvement project!</div>
+							  <div class="source">- Michael Rudloff</div>
 							</li>
 							<li class="anim2">
-							  <div class="quote">Hello, this is a quote from another person.adfjlkadklfjakjfdladfjdlkafjkldajfakldakjfkladjkfajkdfkladjfajdlfkjad;fkladjfkl;ajl;fdajl;</div>
+							  <div class="quote">Hello, this is a quote from another person.</div>
 							  <div class="source">- Another person</div>
 							</li>
 							<li class="anim3">
@@ -111,39 +111,30 @@
 						<div class="slideContainer">
 							<div class="Slide">
 								<img src="images/modern-kitchen.jpg" />
-								<div class="Caption">Photo 1</div>
 							</div>
 							<div class="Slide">
 								<img src="images/deck-frame.jpg">
-								<div class="Caption">Photo 2</div>
 							</div>
 							<div class="Slide">
 								<img src="images/c2c-shower-sbwytile.jpg">
-								<div class="Caption">Photo 3</div>
 							</div>
 							<div class="Slide">
 								<img src="images/c2c-ktichen.jpg">
-								<div class="Caption">Photo 4</div>
 							</div>
 							<div class="Slide">
 								<img src="images/c2c-kitchen-bksplsh.jpg">
-								<div class="Caption">Photo 5</div>
 							</div>
 							<div class="Slide">
 								<img src="images/sunroom-front.jpg">
-								<div class="Caption">Photo 6</div>
 							</div>
 							<div class="Slide">
 								<img src="images/c2c-kitchen-apt.jpg">
-								<div class="Caption">Photo 7</div>
 							</div>
 							<div class="Slide">
 								<img src="images/c2c-door.jpg">
-								<div class="Caption">Photo 8</div>
 							</div>
 							<div class="Slide">
 								<img src="images/bathroom-zebratile.jpg" />
-								<div class="Caption">Photo 9</div>
 							</div>
 							<a class="prevBtn">❮</a>
 							<a class="nextBtn">❯</a>
@@ -173,19 +164,20 @@
 						</header>
 						<div class="row">
 							<section class="col-6 col-12-narrower">
-								<form method="post" data-email="concrete2cabinetry@gmail.com" action="contact.php">
+								<form name="email" target="_blank" action="https://formsubmit.co/concrete2cabinetry@gmail.com" method="POST">
+									<!-- <input type="hidden" name="_next" value="thanks.html"> -->
 									<div class="row gtr-50">
 										<div class="col-6 col-12-mobile">
-											<input name="name" placeholder="Name" type="text" />
+											<input name="name" placeholder="Name" type="text" required/>
 										</div>
 										<div class="col-6 col-12-mobile">
-											<input name="email" placeholder="Email" type="text" />
+											<input name="email" placeholder="Email" type="text" required/>
 										</div>
 										<div class="col-12">
 											<input name="phone" placeholder="Phone" type="text">
 										</div>
 										<div class="col-12">
-											<textarea name="message" placeholder="Message"></textarea>
+											<textarea name="message" placeholder="Message" required></textarea>
 										</div>
 										<div class="col-12">
 											<ul class="actions">
