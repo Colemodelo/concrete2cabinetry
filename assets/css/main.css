@@ -3518,6 +3518,7 @@ input, select, textarea {
 	.nextBtn,
 	.Caption {
 	   font-size: 16px;
+	   top: 45%;
 	}
 	.prevBtn{
 		left: 0;
