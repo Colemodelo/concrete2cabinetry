@@ -3383,7 +3383,6 @@ input, select, textarea {
 	}
 	.slider .anim1 .quote, .slider .anim3 .quote, .slider .anim5 .quote{
 		font-size: 1.5em;
-		color: red;
 	}
 	
  }
@@ -3402,7 +3401,6 @@ input, select, textarea {
 	}
 	.slider .anim1 .quote, .slider .anim3 .quote, .slider .anim5 .quote{
 		font-size: 1.2em;
-		color: red;
 	}
  }
 
