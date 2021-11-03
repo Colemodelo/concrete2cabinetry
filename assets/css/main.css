@@ -3381,6 +3381,10 @@ input, select, textarea {
 		width: 100%;
 		height: auto;
 	}
+	.slider .anim1 .quote, .slider .anim3 .quote, .slider .anim5 .quote{
+		font-size: 1.5em;
+		color: red;
+	}
 	
  }
  @media only screen and (max-width: 625px) and (min-width: 500px) {
@@ -3395,6 +3399,10 @@ input, select, textarea {
 	.button{
 		width: 75%;
 		margin: auto;
+	}
+	.slider .anim1 .quote, .slider .anim3 .quote, .slider .anim5 .quote{
+		font-size: 1.2em;
+		color: red;
 	}
  }
 
@@ -3435,12 +3443,10 @@ input, select, textarea {
   }
   @media only screen and (max-width: 425px){
 	  h1{
-		  font-size: 1.2em;
-	  }
-  }
-  @media only screen and (max-width: 375px){
-	  h1{
 		  font-size: 1.1em;
+	  }
+	  .slider > li > .anim1, .slider > li > .anim3, .slider > li > .anim5{
+		font-size: 16px !important;
 	  }
   }
   @media only screen and (max-width: 340px){
