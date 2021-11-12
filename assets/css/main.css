@@ -3381,7 +3381,7 @@ input, select, textarea {
 		width: 100%;
 		height: auto;
 	}
-	.slider .anim1 .quote, .slider .anim3 .quote, .slider .anim5 .quote{
+	.slider .anim1 .quote, .slider .anim4 .quote{
 		font-size: 1.5em;
 	}
 	
@@ -3399,7 +3399,7 @@ input, select, textarea {
 		width: 75%;
 		margin: auto;
 	}
-	.slider .anim1 .quote, .slider .anim3 .quote, .slider .anim5 .quote{
+	.slider .anim1 .quote, .slider .anim4 .quote{
 		font-size: 1.2em;
 	}
  }
@@ -3443,8 +3443,8 @@ input, select, textarea {
 	  h1{
 		  font-size: 1.1em;
 	  }
-	  .slider > li > .anim1, .slider > li > .anim3, .slider > li > .anim5{
-		font-size: 16px !important;
+	  .slider li .anim1, .slider li .anim4{
+		font-size: 16px;
 	  }
   }
   @media only screen and (max-width: 340px){
